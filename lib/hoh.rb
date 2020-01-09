@@ -30,6 +30,7 @@
 #   sub_category: nil
 # }
 
+<<<<<<< HEAD
 def naming_system 
   {:label => "Kingdom",
   :sub_category => {
@@ -56,6 +57,10 @@ def naming_system
 end
 
  # Remember:
+=======
+def naming_system = 
+  # Remember:
+>>>>>>> 2fe229f8d3abf1f7ea7d32fcdba6e287e32108a9
   #  Kingdom
   #  Phylum
   #  Class
@@ -64,4 +69,25 @@ end
   #  Genus
   #  Species
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
+<<<<<<< HEAD
   # HoH all the way to Species!
+=======
+  # HoH all the way to Species!
+
+:Kingdom =>
+  {:Phylum =>
+    {:Class =>
+      {:Order =>
+        {:Family =>
+          {:Genus =>
+            {:Species => {}}
+          }
+        }
+      }
+    }
+  }
+
+
+
+end
+>>>>>>> 2fe229f8d3abf1f7ea7d32fcdba6e287e32108a9
